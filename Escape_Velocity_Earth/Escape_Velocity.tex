@@ -1,0 +1,60 @@
+\documentclass{article}
+
+\usepackage[margin=0.5in]{geometry}
+
+\title{Discussion Lesson: Escape velocity from the Earth's surface.}
+\author{Original Author: Nathan Butcher}
+\date{}
+
+
+\begin{document}
+\maketitle
+
+\textbf{Topic and objective:} This should be done when conservation of energy is introduced and ideally after potential energy curves. Students will get practice reading a potential energy curve and have to explain potential energy conversion to kinetic energy.
+
+\textbf{Preparation:} Either making 4 to 5 slides or preparing notes to follow on the blackboard. 
+
+\textbf{Duration:} Approximately 15 minutes. 
+
+\hspace{14pt}
+
+\textbf{Activity:}
+\begin{enumerate}
+\item Motivate with a question: ``Suppose you want to launch a rocket from the Earth out to the moon. How fast does that rocket have to be going?''
+
+\item Start with think-pair-share: ``What quantities will the necessary velocity to get away from the Earth (we will call it the escape velocity) depend on?'' Have students spend 1 minute jotting down ideas individually, then pair up and share for 1 minute, and end with asking for volunteers to share their groups ideas.
+
+\item Now for the calculation, start with Newton's Law of universal gravitation. Note that this may be new to the class and require explaining.
+
+\begin{equation}
+F = - \frac{G m_1 m_2}{r^2}
+\end{equation}
+
+Use the relation $U = - \int F dr$ to get
+
+\begin{equation}
+U = - \frac{G m_1 m_2}{r}
+\end{equation}
+
+\item Once you have this, ask students in their same pairs as from above to draw a potential energy curve for U vs r. Give them a couple of minutes. See the figure Potential\_Curve.png.
+
+\item Show the correct plot and as a class discuss it. Key idea is that it is always negative, so a total energy of zero will be able to escape out to infinity. If energy is negative, at some point all of the energy will be in potential energy so the spacecraft will stop moving and the gravitational force will pull it back to Earth Ask if students have heard the term ``potential well'' and explain that term with the graph. With gravity, it should be more clear that the direction of the force is the direction where U is decreasing.
+
+\item Now that you know total energy needs to be zero to escape, write for them ``K.E + P.E. = 0'' so that they see the idea but not as an equation. In their same pairs, have them try and solve for velocity in terms of the relevant variables (no numbers). You may need to help some groups so move around the room and check in on anybody who seems stuck. Give them 3 to 5 minutes.
+
+\item Work through the algebra yourself to get the result
+
+\begin{equation}
+v_{esc} = \sqrt{\frac{G M_{Earth}}{R_{Earth}}}
+\end{equation}
+
+\item Revisit initial question about dependence of escape velocity, make sure to focus on how the velocity is independent of the mass of the spacecraft being launched. Pose as a question why heavier payloads are harder to get into space. If they need a hint, ask about the work need to reach escape velocity. As an additional point, you could discuss the increasing mass of the fuel.
+\end{enumerate}
+
+\textbf{Summary:} Just with a potential energy curve and thinking about how energy can transform between potential and kinetic, we have determined the escape velocity of a rocket from the Earth's surface. The potential energy curve shows us that the total energy has to be zero to escape the Earth's potential well. The escape velocity does not depend on the mass of the spacecraft.
+
+\hspace{14pt}
+
+Figures should be provided separately in the same directory.
+
+\end{document}
