@@ -11,7 +11,7 @@
 \maketitle
 \thispagestyle{empty}
 
-\textbf{Purpose of activity:}  Everybody has an intuitive idea of projectile motion from experience, so this lesson tries to draw on that to reinforce the mathematics of projectile motion.
+\textbf{Purpose of activity:}  Everybody has an intuitive idea of projectile motion from experience, so this lesson tries to draw on that to reinforce the mathematics of projectile motion. This demo is a lot of fun for the class, which can help to keep interest up.
 
 \textbf{Topic and objective:} This lesson should follow the introduction of projectile motion. After this activity students should be able to qualitatively describe projectile motion using accurate terminology from the course. 
 
@@ -19,21 +19,53 @@
 
 \textbf{Duration:} 10 minutes 
 
-\textbf{Considerations and suggestions:}
+\textbf{Considerations and suggestions:} Don't do this unless you are comfortable with your ability to throw and catch.
 
 \hspace{14pt}
 
 \textbf{Activity:}
 \begin{enumerate}
 \item Start by asking for a volunteer. It is up to you if you want to reveal anything about the demo before asking for a volunteer. I prefer not to (keeping the football in my bag until the volunteer has gotten to the front).
-\item Start with an initial question
-\item Lay out steps until complete
+
+\item When you have a volunteer and get the ball out, state that for the short distance of the throw we can neglect air resistance. Ask the class to describe the flight of the ball.  Students may trace out the shape in the air or say things like ``curve down." Continue to lead them with questions until they say parabola. 
+
+\item Throw the ball back and forth a couple times. Ask the class a few questions about the motion while playing catch, such as
+
+\begin{itemize}
+\item How does the velocity compare when thrown and when caught? (Same)
+\item Does the horizontal component of the velocity change? (If we ignore air resistance, no)
+\item When is the velocity minimized? (At the peak when the vertical component is zero)
+\end{itemize}
+
+\item With the ball in hand stop and tell the class you will try to throw the ball at a 45$^\circ$ angle. Do your best to and once you have the ball back, say you will throw the ball much higher but still get it to the volunteer. Ask whether the ball will be moving faster or slower when caught in this case compared to the 45$^\circ$ case. Make whoever answers explain why and then throw the ball. Fill in details of the answer as needed.
+
+\item Last thing to do is show the class how to write the vertical position $y$ as a function of the horizontal position $x$. Start with
+
+\begin{equation}
+	y = y_0 + (v \, sin \theta)t - \frac{1}{2} g t^2, \qquad x = x_0 + (v \, cos \theta) t
+\end{equation}
+
+
+
+Set $x_0 = 0$ to write
+
+\begin{equation}
+	t = \frac{x}{v \, cos \theta}
+\end{equation}
+
+Now plug this into the equation for $y$ to get
+
+\begin{equation}
+	y = y_0 + tan \theta \, x - \frac{g}{2 \, v^2 \, cos^2 \theta} x^2
+\end{equation}
+
+Point out that $\theta$ is an initial condition of the throw and therefore doesn't change during a single flight of the ball. Varying launch angle and initial speed will change the shape of the parabola by changing the constants.
+
 \end{enumerate}
 
-\textbf{Reflection:} Questions or ideas for the students to think over or discuss that should help them focus on the key points.
+\textbf{Reflection:} Projectile motion is just 2D motion with only gravitational acceleration. Think about $x$ and $y$ separately then connect them to describe the motion.
 
 \hspace{14pt}
 
-Figures should be provided as a separate file in the same directory and be referenced in text.
 
 \end{document}
